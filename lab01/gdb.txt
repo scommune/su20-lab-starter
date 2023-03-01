@@ -1,9 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1.append value
+2.break, brea, bre, br,b -- Set breakpoint at specified location.
+3.jump,j -- Continue program being debugged at specified line or address.
+4.nexti,ni -- Step one instruction, but proceed through subroutine calls.
+5.next,n -- Step program, proceeding through subroutine calls.
+6.print, inspect, p;Print value of expression EXP.
+7.unknow
+8.info args -- All argument variables of current stack frame or those matching REGEXPs.
+9.quit
