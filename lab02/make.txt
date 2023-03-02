@@ -1,7 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1.clean:
+	-rm -rf core *.o *~ "#"*"#" Makefile.bak $(BINARIES) *.dSYM
+2..c.o:
+	$(CC) -c $(CFLAGS) $<
+3.gcc
+4.-std=c99
+5.&(FOO)
+6.Darwin是由苹果电脑于2000年开发的一个开放原始码操作系统。Darwin 是MacOSX 操作环境的操作系统成份。
+7.19
