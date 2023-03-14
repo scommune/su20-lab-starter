@@ -22,3 +22,11 @@ main:
 
 factorial:
     # YOUR CODE HERE
+    add t0 a0 x0# counter = n
+    addi t1 x0 1# result = 1
+loop:
+    mul t1 t1 t0# result = result * n
+    addi t0 t0 -1# n--
+    bne t0 x0 loop# while true
+    add a0 t1 x0
+    jr ra#return，但为什么打印的是8
